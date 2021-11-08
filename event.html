@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        .event-main {
+            width: 100%;
+            height: auto;
+            
+        }
+         .event{display: flex;
+   
+    }
+    .text{
+        margin-left: 10px;
+    }
+        
+    .event h2{
+        font-size: 30px;
+    }
+
+    .event p{
+        font-size: 20px;
+    }
+        .event img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 20px
+        }
+
+        @media screen and (max-width:450px) {
+            .event{display:block;}   
+            .event p{
+        font-size: 16px;
+    }
+        .event img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px
+        }
+        }
+        @media screen and (max-width:800px) {
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="event-main">
+            <center>
+                <h1>Event</h1>
+            </center>
+            <div class="event">
+                <img src="event1.jpg" alt="">
+                <div class="text">
+                    <h2>| Training Center</h2>
+                    <p>Training center for Graphics Designing.</p>
+                </div>
+            </div>
+            <div class="event">
+                <img src="event2.jpg" alt="">
+                <div class="text">
+                    <h2>| Counselling Session</h2>
+                    <p>| Counselling Session</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
